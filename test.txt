@@ -62,3 +62,6 @@ git branch	Показати локальні гілки
 git branch -a	Показати локальні та віддалені гілки
 git switch --track origin/feature	Створити локальну гілку з віддаленої
 code .	Відкрити поточну папку у VS Code
+
+на іншому користувачу треба прив'язати локальну гілку до віддаленої
+git branch --set-upstream-to=origin/GitCommands GitCommands
